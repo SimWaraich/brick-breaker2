@@ -31,6 +31,13 @@ public class Gameplay extends JFrame implements ActionListener, KeyListener {
     // Bounce off for Y speed to be 2 times contact
     private int balldirY = -2;
     
+    // Giving parameters to gameplay for use
+    public Gameplay() {
+        addKeyListener(this);
+        setFocusable(true);
+        setFocusTraversalKeysEnabled(false);
+    }
+    
     @Override
     public void keyTyped(KeyEvent e) {
         // To designate which key is used
