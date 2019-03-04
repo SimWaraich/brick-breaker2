@@ -1,4 +1,4 @@
-// Brick Breaker 2 game. 
+// Brick Breaker 2 game. b
 package brickBreaker2;
 
 import javax.swing.JFrame;
