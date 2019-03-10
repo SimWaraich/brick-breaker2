@@ -36,6 +36,7 @@ public class Gameplay extends JFrame implements ActionListener, KeyListener {
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
+        /* need to figure out what the above is. */
     }
     
     @Override
