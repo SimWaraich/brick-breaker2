@@ -75,7 +75,22 @@ public class Gameplay extends JFrame implements ActionListener, KeyListener {
     @Override
     public void keyPressed(KeyEvent e) {
         // To detect when key is pressed
-        
+        if(e.getKeyCode() == KeyEvent.VK_RIGHT) {
+            // To check if the paddle doesn't cross the right border.
+            if(playerX >= 600) {
+                playerX = 600; // set the paddle to static position to prevent out of bounds
+            } else {
+                moveRight(); //moveRight method still has to be created.
+            }
+        }
+        if(e.getKeyCode() == KeyEvent.VK_LEFT) {
+            // To check if the paddle doesn't cross the left border.
+            if(playerX <= 100) {
+                playerX = 100; // set the paddle to static position to prevent out of bounds
+            } else {
+                moveLeft(); //moveLeft method still has to be created.
+            }
+        }
     }
 
     @Override
