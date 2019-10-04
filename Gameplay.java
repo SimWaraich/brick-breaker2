@@ -104,5 +104,5 @@ public class Gameplay extends JFrame implements ActionListener, KeyListener {
         // How the code reacts to the action
         
     }
-    
+    //add motion animation for still image of ball
 }
