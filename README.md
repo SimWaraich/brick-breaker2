@@ -1,2 +1,2 @@
 # brick-breaker2
-Broke brick breaker 1.
+Because brick breaker 1 wasn't enough.
